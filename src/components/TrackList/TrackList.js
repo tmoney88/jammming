@@ -10,7 +10,9 @@ class TrackList extends Component {
             <div className="TrackList">
                 {
                     this.props.tracks &&
-                    this.props.tracks.map(track => <Track track={track} key={track.id} />)
+                    this.props.tracks.map(track => <Track track={track} 
+                                                        key={track.id} 
+                                                        onAdd={this.props.onAdd} />)
                 }
             </div>
         )
