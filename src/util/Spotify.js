@@ -1,5 +1,5 @@
 const clientId = '73004e51efb9421eb3fb7bf27b7ecd1f';
-const redirectUri = 'http://localhost:3000';
+const redirectUri = 'http://creepy-toe.surge.sh';
 
 let accessToken;
 
